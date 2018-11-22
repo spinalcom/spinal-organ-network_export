@@ -1,0 +1,17 @@
+{
+  "name": "spinal-organ-network_export",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "spinal-core-connectorjs": "git+https://github.com/spinalcom/spinal-core-connectorjs.git",
+    "spinal-lib-forgefile": "git+https://github.com/spinalcom/spinal-lib-forgefile.git",
+    "spinal-models-bmsNetwork": "git+https://github.com/spinalcom/spinal-models-bmsNetwork.git",
+    "spinal-models-building-elements": "git+https://github.com/spinalcom/spinal-models-building-elements.git",
+    "spinal-models-timeSeries": "git+https://github.com/spinalcom/spinal-models-timeSeries.git",
+    "spinalgraph": "git+https://github.com/spinalcom/spinal-model-graph.git#v01"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "spinalcom"
+}

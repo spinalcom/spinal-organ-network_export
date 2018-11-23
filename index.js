@@ -124,6 +124,7 @@ async function getTimeSeriesOfYesterday(historyElement) {
   const dateMinus1day = getTodayDateAt0();
   dateMinus1day.setDate(dateMinus1day.getDate() - 1);
   const now = getTodayDateAt0();
+  // const now = new Date();
   const history = await historyElement.getTimeSeriesBetweenDates(
     dateMinus1day.getTime(),
     now.getTime()
